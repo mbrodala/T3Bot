@@ -4,8 +4,8 @@
  *
  * @author Frank Nägler <frank.naegler@typo3.org>
  *
- * @link http://www.t3bot.de
- * @link http://wiki.typo3.org/T3Bot
+ * @link https://www.t3bot.de
+ * @link https://wiki.typo3.org/T3Bot
  */
 namespace T3Bot\Tests\Unit\Commands;
 
@@ -85,8 +85,8 @@ class BottyCommandTest extends BaseCommandTestCase
             'text' => 'botty help',
         ]);
         $result = $this->command->process();
-        static::assertEquals(':link: <http://www.t3bot.de|My Homepage> | '
+        static::assertEquals(':link: <https://www.t3bot.de|My Homepage> | '
             . ':link: <https://github.com/NeoBlack/T3Bot|Github> | '
-            . ':link: <http://wiki.typo3.org/T3Bot|Help for Commands>', $result);
+            . ':link: <https://wiki.typo3.org/T3Bot|Help for Commands>', $result);
     }
 }

@@ -4,8 +4,8 @@
  *
  * @author Frank Nägler <frank.naegler@typo3.org>
  *
- * @link http://www.t3bot.de
- * @link http://wiki.typo3.org/T3Bot
+ * @link https://www.t3bot.de
+ * @link https://wiki.typo3.org/T3Bot
  */
 namespace T3Bot\Commands;
 

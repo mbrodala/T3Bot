@@ -6,8 +6,8 @@
 #
 # @author Frank Nägler <frank.naegler@typo3.org>
 #
-# @link http://www.t3bot.de
-# @link http://wiki.typo3.org/T3Bot
+# @link https://www.t3bot.de
+# @link https://wiki.typo3.org/T3Bot
 ######################################################
 
 # Installation
@@ -18,9 +18,9 @@
 # - Start: `service botty start` or `/etc/init.d/botty start`
 # - Stop: `service botty stop` or `/etc/init.d/botty stop`
 
-#ref http://till.klampaeckel.de/blog/archives/94-start-stop-daemon,-Gearman-and-a-little-PHP.html
-#ref http://unix.stackexchange.com/questions/85033/use-start-stop-daemon-for-a-php-server/85570#85570
-#ref http://serverfault.com/questions/229759/launching-a-php-daemon-from-an-lsb-init-script-w-start-stop-daemon
+#ref https://till.klampaeckel.de/blog/archives/94-start-stop-daemon,-Gearman-and-a-little-PHP.html
+#ref https://unix.stackexchange.com/questions/85033/use-start-stop-daemon-for-a-php-server/85570#85570
+#ref https://serverfault.com/questions/229759/launching-a-php-daemon-from-an-lsb-init-script-w-start-stop-daemon
 
 NAME=botty
 DESC="Daemon for botty script"

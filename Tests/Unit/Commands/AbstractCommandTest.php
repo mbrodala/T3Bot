@@ -4,8 +4,8 @@
  *
  * @author Frank Nägler <frank.naegler@typo3.org>
  *
- * @link http://www.t3bot.de
- * @link http://wiki.typo3.org/T3Bot
+ * @link https://www.t3bot.de
+ * @link https://wiki.typo3.org/T3Bot
  */
 namespace T3Bot\Tests\Unit\Commands;
 
@@ -68,14 +68,14 @@ class AbstractCommandTest extends BaseCommandTestCase
         $message = new Message(['icon_emoji' => 'foo']);
         $attachment = new Message\Attachment(['title' => 'Test']);
         $attachment->setTitle('Test');
-        $attachment->setTitleLink('http://www.google.de');
+        $attachment->setTitleLink('https://www.google.de');
         $attachment->setText('Test');
         $attachment->setFallback('Test');
         $attachment->setAuthorName('Test');
-        $attachment->setAuthorLink('http://www.google.de');
+        $attachment->setAuthorLink('https://www.google.de');
         $attachment->setAuthorIcon('foo');
-        $attachment->setImageUrl('http://www.google.de');
-        $attachment->setThumbUrl('http://www.google.de');
+        $attachment->setImageUrl('https://www.google.de');
+        $attachment->setThumbUrl('https://www.google.de');
 
         $message->setText('Test');
         $message->addAttachment($attachment);

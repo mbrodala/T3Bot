@@ -4,8 +4,8 @@
  *
  * @author Frank Nägler <frank.naegler@typo3.org>
  *
- * @link http://www.t3bot.de
- * @link http://wiki.typo3.org/T3Bot
+ * @link https://www.t3bot.de
+ * @link https://wiki.typo3.org/T3Bot
  */
 namespace T3Bot\Commands;
 
@@ -50,9 +50,9 @@ class BottyCommand extends AbstractCommand
      * @var array
      */
     protected $links = [
-        'My Homepage' => 'http://www.t3bot.de',
+        'My Homepage' => 'https://www.t3bot.de',
         'Github' => 'https://github.com/NeoBlack/T3Bot',
-        'Help for Commands' => 'http://wiki.typo3.org/T3Bot',
+        'Help for Commands' => 'https://wiki.typo3.org/T3Bot',
     ];
 
     /**
